@@ -6,6 +6,8 @@
 }
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -15,7 +17,7 @@ body {
 button {
   all: unset;
   padding: 6px 16px;
-  background: var(--red);
+  background: #d01c28;
   height: 32px;
   color: white;
   font-weight: 500;
@@ -57,7 +59,6 @@ nav ul {
   color: var(--gray);
   max-width: 400px;
 }
-
 .hero-btn {
   display: flex;
   gap: 40px;
@@ -70,7 +71,6 @@ nav ul {
   color: var(--gray);
   border: 1px solid gray;
 }
-
 .shopping p {
   font-size: 14px;
   margin-bottom: 8px;
